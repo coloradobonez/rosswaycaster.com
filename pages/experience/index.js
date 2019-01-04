@@ -32,7 +32,7 @@ const Resume = props => (
 
       <br />
       <br />
-      <Button href="/static/Ross-Waycaster-Resume.pdf" target="_blank">
+      <Button href="/static/resume.pdf" target="_blank">
         Download Resume
       </Button>
     </LeftContainer>
@@ -42,7 +42,7 @@ const Resume = props => (
 
 //Async get data from Prismic
 Resume.getInitialProps = async () => {
-  const apiEndpoint = "https://rosswaycaster.cdn.prismic.io/api/v2";
+  const apiEndpoint = "https://laurabone.cdn.prismic.io/api/v2";
   const api = await Prismic.api(apiEndpoint);
 
   const homeData = await api.query(
