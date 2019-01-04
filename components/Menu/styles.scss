@@ -15,12 +15,12 @@
     transition: all 100ms ease-in-out;
     &:not(.selected):hover {
       background-color: #e7f2ff;
-      color: #0f77ff;
-      box-shadow: 6px 6px #0f77ff;
+      color: #5c93dc;
+      box-shadow: 6px 6px #5c93dc;
     }
   }
   .selected {
-    background-color: #0f77ff;
+    background-color: #5c93dc;
     color: white;
     box-shadow: 6px 6px #e7f2ff;
   }
